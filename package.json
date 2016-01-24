@@ -1,0 +1,32 @@
+{
+  "name": "ploadr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r tests/testhelper.js -R spec tests/**/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "MD5": "^1.3.0",
+    "async": "^1.5.2",
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.1",
+    "errorhandler": "^1.4.3",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "kerberos": "0.0.18",
+    "method-override": "^2.3.5",
+    "moment": "^2.11.1",
+    "mongoose": "^4.3.6",
+    "morgan": "^1.6.1",
+    "multer": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "proxyquire": "^1.7.3",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
+  }
+}
