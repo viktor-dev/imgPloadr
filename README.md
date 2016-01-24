@@ -2,4 +2,4 @@
 
 Image gallery
 
-Node.js/Express.js Project
+Node.js/Express.js/MongoDB/Mongoose Project
